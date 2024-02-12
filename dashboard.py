@@ -44,7 +44,7 @@ with tab2:
 	#     radar_chart('Radar chart',chart_data)
           
         #Pengiriman Tepat Waktu dan Terlambat
-    data_keterlambatan = pd.DataFrame(
+    data_keterlambatan = pd.DataFrame({
         'Kategori': ['Tepat Waktu', 'keterlambatan'],
         'Jumlah': [111,222]
     })
