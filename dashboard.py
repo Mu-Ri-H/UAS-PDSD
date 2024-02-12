@@ -45,7 +45,7 @@ with tab2:
           
         #Pengiriman Tepat Waktu dan Terlambat
     data_keterlambatan = pd.DataFrame(
-        'Kategori': ['Tepat Waktu', 'Terlambat'],
+        'Kategori': ['Tepat Waktu', 'keterlambatan'],
         'Jumlah': [111,222]
     })
         
