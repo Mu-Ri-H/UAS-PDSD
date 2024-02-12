@@ -23,7 +23,7 @@ df_data_negara = df_data_customers['customer_state'].value_counts()
 tab1, tab2 = st.tabs(["Table", "Diagram Batang"])
 
 with tab1:
-    st.header("Table")
+    st.header("Tabel")
 
 
 with tab2:
