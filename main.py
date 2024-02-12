@@ -12,7 +12,6 @@ with st.echo("below"):
     show_pages(
         [
             Page("dashboard.py", "Dashboard", "🏠"),
-            Page("profile.py", "Profile", "🏠"),
         ]
     )
 
